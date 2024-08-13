@@ -7,7 +7,7 @@ async function getPosts() {
     console.log(posts); 
 
     // Manejo DOM 
-    const postList = document.getElementById('post-list');
+    let  postList = document.getElementById('post-list');
 
     // Limpiar lista antes de agregar nuevos posts
     postList.innerHTML = '';
