@@ -1,0 +1,46 @@
+
+button {
+  background-color: #af4c9e; 
+  color: white;
+  padding: 15px 32px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+
+button:hover {
+  background-color: #722a57;
+}
+
+ul#post-list {
+  list-style-type: none; 
+  padding: 0;
+}
+
+ul#post-list li {
+  background-color: #f4f4f4;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border-left: 8px solid #af4c9e;
+  font-family: 'Arial', sans-serif;
+}
+ul#post-list li h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+#error-message {
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-decoration:underline;
+  margin-top: 20px;
+}
